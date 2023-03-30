@@ -1,0 +1,15 @@
+Package: BBM
+Type: Package
+Title: A novel Beta-binomial-distribution-based Biclustering Algorithm for Mining m6A Co-methylation Patterns
+Version: 0.1.0
+Authors@R: 
+    person("zhaoyang", "liu", email = "zy.liu@cumt.edu.cn", role = c("aut","cre"))
+Maintainer: zhaoyang liu <zy.liu@cumt.edu.cn>
+Description: BBM can be applied directly to the IP and input data matrices for m6A co-methylation mining, avoiding the problem of introducing noise or information distortion of traditional methods, which require the IP and input data matrices to be first approximated into methylation levels.
+    It can also be used for pattern mining of data that follows a beta-binomial mixture distribution.If you use BBM for other types of data mining, the input matrices a and b must be numeric matrices.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
